@@ -11,15 +11,14 @@ namespace Giraffe
         static void Main(string[] args)
         {
             // Getting User Input
+            Console.Write("Enter your name: "); // Prints in the same line
+            string name = Console.ReadLine(); // Store the input to the variable name
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + age + " years old");
 
 
-
-
-
-
-
-
-            // keep open the console window
+            // Keep the console open
             Console.ReadLine();
         }
     }
