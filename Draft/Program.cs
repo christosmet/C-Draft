@@ -10,15 +10,19 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            // Print to the screen
-            Console.WriteLine("   /|");
-            Console.WriteLine("  / |");
-            Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+            // Return Statement in C# methods
+            int cubedNumber = cube(5);
+
+            Console.WriteLine(cubedNumber);
 
             // keep open the console window
-
             Console.ReadLine();
+        }
+
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
         }
     }
 }
