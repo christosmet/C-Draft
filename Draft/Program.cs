@@ -12,7 +12,18 @@ namespace Giraffe
         {
             // While Loops
 
+            int index = 6;
+            while(index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
 
+            do 
+            {
+                Console.WriteLine(index);
+                index++;
+            } while(index <= 5);
 
 
             // keep open the console window
