@@ -11,9 +11,10 @@ namespace Giraffe
         static void Main(string[] args)
         {
             // Comments
-
-
-
+            
+            /*
+            Console.WriteLine("Comments are fun");
+            */
 
             // keep open the console window
             Console.ReadLine();
