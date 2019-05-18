@@ -10,14 +10,12 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            // Print to the screen
-            Console.WriteLine("   /|");
-            Console.WriteLine("  / |");
-            Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+            // While Loops
+
+
+
 
             // keep open the console window
-
             Console.ReadLine();
         }
     }
