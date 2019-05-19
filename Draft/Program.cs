@@ -10,8 +10,8 @@ namespace Draft
     {
         static void Main(string[] args)
         {
-            // Classes & Objects
-            // Create a Book
+            // Constructors
+
             Book book1 = new Book();
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
