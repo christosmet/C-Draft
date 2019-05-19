@@ -11,5 +11,19 @@ namespace Draft
         public string title;
         public string author;
         public int pages;
+
+        // Contructor
+
+        // Can create 2 constructors
+        public Book()
+        {
+            
+        }
+        public Book(string aTitle, string aAuthor, int aPages)
+        {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+        }
     }
 }
