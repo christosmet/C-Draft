@@ -10,15 +10,10 @@ namespace Draft
     {
         static void Main(string[] args)
         {
-            // Constructors
+            // Object Methods
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
-            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
-
-            Book book2 = new Book("Lord Of the Rings", "Tolkein", 700);
-            Book book3 = new Book();
-            book2.title = "The hobbit";
-
-            Console.WriteLine(book2.title);
 
             // keep open the console window
             Console.ReadLine();
