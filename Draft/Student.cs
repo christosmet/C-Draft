@@ -18,5 +18,15 @@ namespace Draft
             major = aMajor;
             gpa = aGpa;
         }
+
+        // Object Method
+        public bool hasHonors()
+        {
+            if(gpa >= 3.5)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
