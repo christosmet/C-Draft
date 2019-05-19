@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Giraffe
+namespace Draft
 {
     class Program
     {
@@ -12,6 +12,8 @@ namespace Giraffe
         {
             // Static Methods & Classes
 
+            // UsefulTools tools = new UsefulTools();
+            UsefulTools.SayHi("Christos");
 
 
             // keep open the console window
